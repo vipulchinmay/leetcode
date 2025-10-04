@@ -1,4 +1,4 @@
-// Last updated: 04/10/2025, 20:53:13
+// Last updated: 04/10/2025, 20:53:33
 import java.util.*;
 
 class Solution {
@@ -46,7 +46,6 @@ class Solution {
 
                 vis[nx][ny] = true;
 
-                // if the neighbour is lower, it can trap water
                 if (a[nx][ny] < maxH) {
                     res += maxH - a[nx][ny];
                 }
