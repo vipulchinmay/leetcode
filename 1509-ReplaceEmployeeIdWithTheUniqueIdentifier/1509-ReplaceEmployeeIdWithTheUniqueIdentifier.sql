@@ -1,0 +1,3 @@
+-- Last updated: 04/10/2025, 15:51:00
+# Write your MySQL query statement below
+select EmployeeUNI.unique_id, Employees.name from Employees left join EmployeeUNI on EmployeeUNI.id = Employees.id order by Employees.id;
